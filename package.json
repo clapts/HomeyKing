@@ -10,10 +10,11 @@
     "test:watch": "vitest"
   },
   "dependencies": {
-    "homey-api": "3.19.3"
+    "homey-api": "3.18.1"
   },
   "devDependencies": {
     "@types/homey": "npm:homey-apps-sdk-v3-types@0.3.12",
+    "@types/node": "^22.0.0",
     "typescript": "7.0.2",
     "vitest": "4.1.11"
   }
