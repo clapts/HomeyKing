@@ -1,0 +1,32 @@
+{
+  "bedroom.claudio.light.main": {
+    "role": "LIGHT",
+    "provider": "homey",
+    "providerDeviceId": "REPLACE_LOCALLY"
+  },
+  "bedroom.claudio.light.night": {
+    "role": "LIGHT",
+    "provider": "homey",
+    "providerDeviceId": "REPLACE_LOCALLY"
+  },
+  "bedroom.claudio.door": {
+    "role": "CONTACT_SENSOR",
+    "provider": "homey",
+    "providerDeviceId": "REPLACE_LOCALLY"
+  },
+  "bedroom.claudio.closet.light": {
+    "role": "LIGHT",
+    "provider": "homey",
+    "providerDeviceId": "REPLACE_LOCALLY"
+  },
+  "bedroom.claudio.closet.motion.entry": {
+    "role": "MOTION_SENSOR",
+    "provider": "homey",
+    "providerDeviceId": "REPLACE_LOCALLY"
+  },
+  "bedroom.claudio.closet.motion.internal": {
+    "role": "MOTION_SENSOR",
+    "provider": "homey",
+    "providerDeviceId": "REPLACE_LOCALLY"
+  }
+}
