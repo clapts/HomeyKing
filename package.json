@@ -1,0 +1,16 @@
+{
+  "name": "homeyking",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local-first modular Home Core for Homey Self-Hosted Server",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2",
+    "vitest": "^4.1.11"
+  }
+}
