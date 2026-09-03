@@ -5,12 +5,16 @@
   "description": "Local-first modular Home Core for Homey Self-Hosted Server",
   "scripts": {
     "build": "tsc -p tsconfig.json",
-    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "typecheck": "tsc -p tsconfig.test.json --noEmit",
     "test": "vitest run",
     "test:watch": "vitest"
   },
+  "dependencies": {
+    "homey-api": "3.19.3"
+  },
   "devDependencies": {
-    "typescript": "^7.0.2",
-    "vitest": "^4.1.11"
+    "@types/homey": "npm:homey-apps-sdk-v3-types@0.3.12",
+    "typescript": "7.0.2",
+    "vitest": "4.1.11"
   }
 }
