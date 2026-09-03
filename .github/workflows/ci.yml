@@ -28,4 +28,5 @@ jobs:
         with:
           node-version: 24
       - run: npm install -g homey@4.4.4 --no-audit --no-fund
+      - run: homey app build
       - run: homey app validate
