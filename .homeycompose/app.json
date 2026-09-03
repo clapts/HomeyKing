@@ -1,0 +1,23 @@
+{
+  "id": "com.clapts.kingcore",
+  "version": "0.1.0",
+  "compatibility": ">=12.9.0",
+  "runtime": "nodejs",
+  "platforms": ["local"],
+  "sdk": 3,
+  "name": {
+    "en": "HomeyKing",
+    "it": "HomeyKing"
+  },
+  "description": {
+    "en": "Local-first modular automation core.",
+    "it": "Core domotico modulare local-first."
+  },
+  "category": "tools",
+  "permissions": [
+    "homey:manager:api"
+  ],
+  "author": {
+    "name": "clapts"
+  }
+}
