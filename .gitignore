@@ -1,0 +1,14 @@
+node_modules/
+.homeybuild/
+coverage/
+dist/
+.env
+.env.*
+!.env.example
+
+# Real home mapping and local secrets must never be committed
+config/local/
+config/devices.local.json
+config/secrets.local.json
+
+.DS_Store
