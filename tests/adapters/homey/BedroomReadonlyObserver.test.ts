@@ -124,7 +124,9 @@ describe('BedroomReadonlyObserver', () => {
           },
         ],
       },
-      input => received.push(input),
+      input => {
+        received.push(input);
+      },
     );
 
     await observer.start();
