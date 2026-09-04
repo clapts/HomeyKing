@@ -1,0 +1,34 @@
+{
+  "devices": [
+    {
+      "semanticDevice": "bedroom.claudio.door",
+      "physicalDeviceId": "LOCAL_HOMEY_DEVICE_ID",
+      "capabilities": ["alarm_contact"]
+    },
+    {
+      "semanticDevice": "bedroom.claudio.closet.motion.entry",
+      "physicalDeviceId": "LOCAL_HOMEY_DEVICE_ID",
+      "capabilities": ["alarm_motion"]
+    },
+    {
+      "semanticDevice": "bedroom.claudio.closet.motion.internal",
+      "physicalDeviceId": "LOCAL_HOMEY_DEVICE_ID",
+      "capabilities": ["alarm_motion"]
+    },
+    {
+      "semanticDevice": "bedroom.claudio.light.main",
+      "physicalDeviceId": "LOCAL_HOMEY_DEVICE_ID",
+      "capabilities": ["onoff", "dim"]
+    },
+    {
+      "semanticDevice": "bedroom.claudio.light.night",
+      "physicalDeviceId": "LOCAL_HOMEY_DEVICE_ID",
+      "capabilities": ["onoff", "dim"]
+    },
+    {
+      "semanticDevice": "bedroom.claudio.closet.light",
+      "physicalDeviceId": "LOCAL_HOMEY_DEVICE_ID",
+      "capabilities": ["onoff", "dim"]
+    }
+  ]
+}
