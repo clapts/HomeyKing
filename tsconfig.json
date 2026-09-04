@@ -7,9 +7,11 @@
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true,
+    "types": ["node", "homey"],
     "outDir": ".homeybuild",
     "rootDir": ".",
     "sourceMap": true
   },
-  "include": ["src/**/*.ts", "tests/**/*.ts"]
+  "include": ["app.ts", "src/**/*.ts"],
+  "exclude": ["tests/**/*.ts"]
 }
